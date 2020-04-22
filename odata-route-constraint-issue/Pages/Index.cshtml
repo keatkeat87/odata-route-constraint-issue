@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    amp page : @Model.IsAmpPage <br />
+    language : @Model.Langauge
+</div>
+
+<a href="/amp/zhHans">go zhHans page</a><br />
+<a href="/odata/WeatherForecast">go odata</a>
+
